@@ -1,0 +1,9 @@
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\n-complementary.csprojResolveAssemblyReference.cache
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\bill\Documents\GitHub\Algorithm\KComplementary\WindowsFormsApplication1\obj\Debug\n-complementary.csproj.GenerateResource.Cache

@@ -37,17 +37,17 @@ namespace WindowsFormsApplication1
                 return 0;
             }
 
-            for (var i = 0; i < len; i++)
-            {
-                if (A[i]*2 == K) {
-                    cnt++;
-                }
-            }
-
             for (var i = 0; i < len; i++) {
-                for (var j = i+1; j < len; j++) {
+                for (var j = i; j < len; j++) {
                     if (A[i] + A[j] == K) {
-                        cnt += 2;
+                        if (i == j)
+                        {
+                            cnt++;
+                        }
+                        else
+                        {
+                            cnt += 2;
+                        }
                     }
                 }
             }
