@@ -55,5 +55,37 @@ namespace WindowsFormsApplication1
             return cnt;
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var List = new List<int>();
+
+            listBox1.Items.Add("----------------");
+            for(var i = 2; i<=100000; i++)
+            {
+                if (MathOne.IsPrime(i) == 1)
+                {
+                    List.Add(i);
+                }
+            }
+
+            //Solution 1
+            //for(var i = 0; i < List.Count() - 1; i++)
+            //{
+            //    if (List[i+1] - List[i] == 2)
+            //    {
+            //        listBox1.Items.Add("(" + List[i] + "," + List[i+1] +")");
+            //    }
+            //}
+
+            //Solution 2
+            var la = (List.Select((obj, index) => new { a = obj, b = (index > 0 ? List[index - 1] : 0) })).Where(p => p.a - p.b == 2 && p.a != 2);
+
+            listBox1.Items.Add("==========================");
+            foreach (var item in la)
+            {
+                listBox1.Items.Add("(" + item.b + "," + item.a + ")");
+            }
+        }
+
     }
 }

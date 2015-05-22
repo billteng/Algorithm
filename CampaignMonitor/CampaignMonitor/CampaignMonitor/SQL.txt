@@ -1,0 +1,49 @@
+Requirement 9
+
+First answer:
+SELECT DISTINCT S.Name FROM Orders O
+INNER JOIN Customer C ON (O.CustomerID = C.CustomerID)
+INNER JOIN Salesperson S (O.SalespersonID = S.SalespersonID)
+where C.Name = 'George'
+
+
+Second answer:
+SELECT DISTINCT S.Name FROM Orders O
+INNER JOIN Customer C ON (O.CustomerID = C.CustomerID)
+INNER JOIN Salesperson S (O.SalespersonID = S.SalespersonID)
+where C.Name <> 'George'
+
+
+Third answer:
+SELECT S.Name FROM Orders O
+INNER JOIN Salesperson S ON (O.SalespersonID = S.SalespersonID)
+GROUP BY S.Name
+HAVING Count(*) > 1
+
+
+
+Requirement 10
+
+First answer:
+SELECT A.Name
+From (SELECT Rank() OVER (ORDER BY Salary DESC) as Rank, S.Name FROM Salesperson S) A
+where A.Rank = 3
+
+
+Second answer: -- I'm using the temp table now.
+INSERT INTO #BigOrders
+SELECT CustomerID, Sum(NumberOfUnits * CostOfUnit) as TotalOrderValue
+FROM Orders 
+Group by CustomerID
+Having Sum(NumberOfUnits * CostOfUnit) > 1000
+
+
+Third answer:
+SELECT A.Year, A.Month, A.TotalAmountOfMonth
+FROM (
+SELECT Year(OrderDate) as Year, Month(OrderDate) as Month, 
+Sum(NumberOfUnits * CostOfUnit) as TotalAmountOfMonth
+FROM Orders 
+group by Year(OrderDate), Month(OrderDate)
+) A
+ORDER BY A.Year DESC, A.Month DESC

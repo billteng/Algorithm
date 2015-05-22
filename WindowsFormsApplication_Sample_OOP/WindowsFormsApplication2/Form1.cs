@@ -24,9 +24,13 @@ namespace WindowsFormsApplication2
             //Q1
             var list = new List<int>() {1,2,3,4, 5, 8, 99};
 
+            //Query expression
             var result = from item in list
 			            where item > 2
 			            select item;
+
+            //We also can do - Method Invocation - uses lambda expression
+            //var result = list.Where(p => p > 2);
 
             foreach (var num in result)
             {
@@ -37,10 +41,10 @@ namespace WindowsFormsApplication2
             var address1 = new Address() 
             {
                 Address_id = 1,
-                Street = "56 Brimwood blvd.",
+                Street = "Brimwood blvd.",
                 City = "Toronto",
                 State = "Ontario",
-                Zip = "M1V 1B8"               
+                Zip = "M1V"               
             };
 
             var address2 = new Address()
@@ -49,7 +53,7 @@ namespace WindowsFormsApplication2
                 Street = null,
                 City = "Toronto",
                 State = "Ontario",
-                Zip = "M1V 1B8"
+                Zip = "M1V"
             };
 
             //with full information of address
@@ -108,6 +112,18 @@ namespace WindowsFormsApplication2
         public virtual ICollection<Person> Person { get; set; }        
     }
 
+    /// <summary>
+    /// We can do a Dependency Injection based the requirements
+    /// for example, the person's address - it's maybe home address, 
+    /// office address or school address etc. so, we can do an IAddress,
+    /// then created diffrence address class extended IAddress interface
+    /// 
+    /// When we instance a person object, we can injected diffrence 
+    /// address object without change the person class, especially in
+    /// the future, if we need another new address, we also don't need change 
+    /// the person class
+    /// 
+    /// </summary>
     public partial class Person
     {
         public int Person_Id { get; set; }

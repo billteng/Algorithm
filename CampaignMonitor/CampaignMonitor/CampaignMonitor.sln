@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignMonitor", "CampaignMonitor\CampaignMonitor.csproj", "{DD4C739E-5F7A-4A11-A90C-0EB5F0395865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignMonitor.Tests", "CampaignMonitor.Tests\CampaignMonitor.Tests.csproj", "{BF85904E-CBF1-4D85-A480-555136729870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD4C739E-5F7A-4A11-A90C-0EB5F0395865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4C739E-5F7A-4A11-A90C-0EB5F0395865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4C739E-5F7A-4A11-A90C-0EB5F0395865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4C739E-5F7A-4A11-A90C-0EB5F0395865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF85904E-CBF1-4D85-A480-555136729870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF85904E-CBF1-4D85-A480-555136729870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF85904E-CBF1-4D85-A480-555136729870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF85904E-CBF1-4D85-A480-555136729870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

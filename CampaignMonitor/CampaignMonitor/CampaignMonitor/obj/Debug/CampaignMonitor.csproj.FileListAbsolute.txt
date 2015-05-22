@@ -1,0 +1,6 @@
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\bin\CampaignMonitor.dll.config
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\bin\CampaignMonitor.dll
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\bin\CampaignMonitor.pdb
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\obj\Debug\CampaignMonitor.csprojResolveAssemblyReference.cache
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\obj\Debug\CampaignMonitor.dll
+C:\Bill 2016\CampaignMonitor\CampaignMonitor\obj\Debug\CampaignMonitor.pdb

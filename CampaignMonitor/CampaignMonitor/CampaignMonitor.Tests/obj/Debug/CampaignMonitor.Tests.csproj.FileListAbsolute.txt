@@ -1,0 +1,7 @@
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\bin\Debug\CampaignMonitor.Tests.dll
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\bin\Debug\CampaignMonitor.Tests.pdb
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\bin\Debug\CampaignMonitor.dll
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\bin\Debug\CampaignMonitor.pdb
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\obj\Debug\CampaignMonitor.Tests.csprojResolveAssemblyReference.cache
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\obj\Debug\CampaignMonitor.Tests.dll
+C:\Bill 2016\CampaignMonitor\CampaignMonitor.Tests\obj\Debug\CampaignMonitor.Tests.pdb
